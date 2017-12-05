@@ -59,6 +59,8 @@ extern "C" {
 #  endif
 #endif
 
+#include "qla_config_helper.h"
+
   // allow the user to specify QLA_Colors and/or QLA_Nc
   // default to Nc=3
 #ifndef QLA_Colors

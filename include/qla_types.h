@@ -17,6 +17,9 @@
 #define _ALIGN(x) _ALIGN2((x))
 #define _ALIGNED _ALIGN2()
 
+/* Helpers */
+#include "qla_config_helper.h"
+
 /* int, real and complex types */
 #include <qla_complex.h>
 
