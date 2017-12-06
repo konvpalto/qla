@@ -6,6 +6,8 @@
 #include <qla_cmath.h>
 #include <math.h>
 
+#include <omp.h>
+
 #include <bgqintrin.h>
 #include <QLA_D3_V_vpeq_M_times_pV_a2i.h>
 

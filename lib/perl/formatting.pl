@@ -215,6 +215,9 @@ sub print_function_def {
     foreach $header ( @headers ){
 	print QLA_SRC @indent,"#include $header\n";
     }
+    if ($have_openmp eq "yes"){
+	print QLA_SRC @indent,"#include <omp.h>\n";
+    }
     print QLA_SRC @indent,"\n";
     print QLA_SRC @indent,"$declaration\n";
     &open_brace();

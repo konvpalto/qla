@@ -8,6 +8,8 @@
 #include <qla_sse.h>
 #include <math.h>
 
+#include <omp.h>
+
 #define NP 6
 #define storepsr storentps
 

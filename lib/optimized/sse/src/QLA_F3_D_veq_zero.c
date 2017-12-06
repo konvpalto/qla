@@ -6,6 +6,8 @@
 #include <qla_sse.h>
 #include <math.h>
 
+#include <omp.h>
+
 void
 QLA_F3_D_veq_zero(QLA_F3_DiracFermion *restrict r, int n)
 {

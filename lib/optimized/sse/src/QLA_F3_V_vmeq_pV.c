@@ -6,6 +6,8 @@
 #include <math.h>
 #include <stdlib.h>
 
+#include <omp.h>
+
 #if 0
 typedef int v2si __attribute__ ((mode(V2SI)));
 typedef int v4si __attribute__ ((mode(V4SI)));

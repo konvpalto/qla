@@ -12,6 +12,8 @@
 #include <qla_d3.h>
 #include <math.h>
 
+#include <omp.h>
+
 #define loada(_i,_j) QLA_D_Complex a##_i##_j; QLA_c_eq_c(a##_i##_j,QLA_D3_elem_M(a[i],_i,_j))
 #define loadb(_i) QLA_D_Complex b##_i; QLA_c_eq_c(b##_i,QLA_D3_elem_V(b[i],_i))
 #define peq(_i,_j) QLA_c_peq_c_times_c(x, a##_i##_j, b##_j)

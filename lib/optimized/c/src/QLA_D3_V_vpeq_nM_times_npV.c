@@ -13,6 +13,8 @@
 #include <qla_d3.h>
 #include <math.h>
 
+#include <omp.h>
+
 #ifdef HAVE_XLC
 #define ALIGNX(...) __alignx(__VA_ARGS__)
 #else

@@ -6,6 +6,8 @@
 #include <qla_cmath.h>
 #include <math.h>
 
+#include <omp.h>
+
 #include <bgqintrin.h>
 
 void

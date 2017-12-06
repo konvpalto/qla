@@ -6,6 +6,8 @@
 #include <qla_cmath.h>
 #include <math.h>
 
+#include <omp.h>
+
 #include <bgqintrin.h>
 //#include <QLA_F3_V_vmeq_pV_a2.h>
 #define pairx(a,b) vec_sldw(a,b,2)

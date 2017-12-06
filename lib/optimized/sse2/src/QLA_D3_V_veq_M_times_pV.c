@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include "inline_sse.h"
 
+#include <omp.h>
+
 void
 QLA_D3_V_veq_M_times_pV( QLA_D3_ColorVector *__restrict__ r,
 		 	 QLA_D3_ColorMatrix *a,

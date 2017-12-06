@@ -6,6 +6,8 @@
 #include <qla_cmath.h>
 #include <math.h>
 
+#include <omp.h>
+
 #include <bgqintrin.h>
 
 void QLA_F3_V_veq_zero ( QLA_F3_ColorVector *restrict r, int n )

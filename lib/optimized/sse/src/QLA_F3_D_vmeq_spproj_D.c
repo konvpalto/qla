@@ -8,6 +8,8 @@
 #include <qla_sse.h>
 #include <math.h>
 
+#include <omp.h>
+
 void
 QLA_F3_D_vmeq_spproj_D( QLA_F3_DiracFermion *restrict r,
 			QLA_F3_DiracFermion *restrict a,

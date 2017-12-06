@@ -8,6 +8,8 @@
 #include <qla_sse.h>
 #include <math.h>
 
+#include <omp.h>
+
 #define SPR 0p
 static inline void
 QLA_F3_D_vpeq_sprecon_M_times_pH_0p_sse( QLA_F3_DiracFermion *restrict r,

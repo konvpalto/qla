@@ -6,6 +6,8 @@
 #include <math.h>
 #include <stdlib.h>
 
+#include <omp.h>
+
 //#define LOAD1
 
 #define NP 8
