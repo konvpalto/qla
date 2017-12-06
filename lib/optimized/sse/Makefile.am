@@ -1,6 +1,6 @@
 SSE_CC = @SSE_CC@
 SSE_CFLAGS = @SSE_CFLAGS@
-SSE_CFLAGS+= -fopenmp
+SSE_CFLAGS+= -fopenmp -std=c99
 
 OPTLIBS =
 if NC3
